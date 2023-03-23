@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(160, 129, 158);
+    font-family: arial;
+}
+h1 {
+    font-size: 22px;
+}
+a {
+    color: rgb(48, 166, 240);
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(246, 238, 238);
+    text-decoration: none;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+    color: aliceblue;
+}
+li{
+    color: aliceblue;
+}
