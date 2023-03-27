@@ -2,6 +2,7 @@ body {
     background-color: rgb(160, 129, 158);
     font-family: arial;
 }
+
 h1 {
     font-size: 30px;
     font-style: ariel;
@@ -24,6 +25,7 @@ p {
     font-size: 16px;
     color: aliceblue;
 }
+
 li{
     color: aliceblue;
 }
@@ -31,29 +33,36 @@ li{
 .container {
     border: none;
     background-color: rgb(184, 145, 171);
-    }
-    .item {
-    border: none;
-    background-color: rgb(184, 145, 171);
-    margin: 10px;
-    padding: 0%;
-    height: 100px;
-    width: 100px;
+    border: size style color;
+    
+    width: auto;
+    margin: left;
+    padding: 25px;
+    border: 5px solid black
     font-weight: bold;
     font-size: 25px;
     }
 
 .container2 {
-        border: none;
-        background-color: rgb(184, 145, 171);
-        }
-        .item {
-        border: 5px solid rgb(0, 0, 0);
-        background-color: rgb(141, 178, 226);
-        margin: 10px;
-        padding: 0%;
-        height: 30px;
-        width: 30px;
-        font-weight: bold;
-        font-size: 25px;
-        }
+    border: none;
+    background-color: rgb(184, 145, 171);
+    border: size style color;
+    
+    width: 400px;
+    margin: left;
+    padding: 25px;
+    border: 5px solid black
+    font-weight: bold;
+    font-size: 25px;   
+    }
+
+    .center {
+        display: grid;
+        place-items: center;
+      }
+      
+    .h1-h2 {
+        text-align: center;
+    }
+
+
