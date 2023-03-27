@@ -1,2 +1,0 @@
-# Resume
-My digital resume
