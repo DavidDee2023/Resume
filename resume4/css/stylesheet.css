@@ -3,10 +3,11 @@ body {
     font-family: arial;
 }
 h1 {
-    font-size: 22px;
+    font-size: 30px;
+    font-style: ariel;
 }
 a {
-    color: rgb(48, 166, 240);
+    color: rgb(148, 200, 245);
     text-decoration: underline;
 }
 a:hover {
@@ -26,3 +27,33 @@ p {
 li{
     color: aliceblue;
 }
+
+.container {
+    border: none;
+    background-color: rgb(184, 145, 171);
+    }
+    .item {
+    border: none;
+    background-color: rgb(184, 145, 171);
+    margin: 10px;
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    }
+
+.container2 {
+        border: none;
+        background-color: rgb(184, 145, 171);
+        }
+        .item {
+        border: 5px solid rgb(0, 0, 0);
+        background-color: rgb(141, 178, 226);
+        margin: 10px;
+        padding: 0%;
+        height: 30px;
+        width: 30px;
+        font-weight: bold;
+        font-size: 25px;
+        }
