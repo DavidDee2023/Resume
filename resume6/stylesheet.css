@@ -59,7 +59,7 @@ white-space: nowrap;
 
 body {
 display: grid;
-grid-template-columns: auto 0px; 
+grid-template-columns: auto; 
 }
 
 .container-top {

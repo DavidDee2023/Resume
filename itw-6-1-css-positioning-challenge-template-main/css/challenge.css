@@ -2,22 +2,97 @@
     Write CSS here to ensure that the back to top button is fixed to the 
     bottom right hand side of the screen 
 */
-#back-to-top {
+#back-to-top 
 
+body {
+display: grid;
+grid-template-columns: justify; 
+}
+
+.top {
+--offset: auto; 
+
+position: sticky;
+bottom: 80px;      
+margin-right: 80px; 
+place-self: end;
+margin-top: calc(100vh + var(--offset));
+
+/* visual styling */
+text-decoration: none;
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+background: #e8d9e4;
+border-radius: 10px;
+white-space: nowrap;
+}
+
+body {
+display: grid;
+grid-template-columns: auto 0px; 
+}
+
+.container-top {
+display: flex;
+align-items: flex-end;
+width: 60px;
+}
+
+.top {
+position: sticky;
+bottom: 80px;      
+margin-right: 80px; 
 }
 
 /* Write CSS here to make navbar sticky to the top of the page */
-#navbar {
 
+#navbar 
+
+.container2 {
+position: sticky;
+bottom: 80px;      
+margin-right: 80px;
+
+display: flex;
+border: none;
+background-color: rgb(184, 145, 171);
+border: size style color;
+
+width: 400px;
+margin: left;
+padding: 1rem;
+border: 5px solid rgb(233, 220, 229) 
 }
 
 #header {
     position: relative;
 }
+.container {
+    border: none;
+    background-color: rgb(184, 145, 171);
+    border: size style color;
+    
+    width: auto;
+    margin: left;
+    padding: 1rem;
+    border: 5px solid rgb(233, 220, 229)
+    }
+
+.h1-h2 {
+    text-align: center;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
 
 /* relatively position header image inside header element using CSS here */
-#header-image {
 
-  
+#header-image
+img {
+    border: 5px solid #555;
+    border-radius: 10%;
 }
 
