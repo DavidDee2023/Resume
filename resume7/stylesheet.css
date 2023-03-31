@@ -4,30 +4,34 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-style: ariel;
 }
 a {
     color: rgb(148, 200, 245);
     text-decoration: underline;
+    font-size:20px solid;
 }
 a:hover {
     color: rgb(246, 238, 238);
     text-decoration: none;
 }
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 h3 {
-    font-size: 18px;
+    font-size: 21px;
 }
 p {
-    font-size: 16px;
+    font-size: 21px;
     color: aliceblue;
+   color: rgb(0, 0, 0);
 }
+ 
 
 li{
     color: aliceblue;
+    font-size: 18px;
 }
 
 /* ---- Back to top ---- */
@@ -78,9 +82,9 @@ margin-right: 80px;
 /* ---- header ----- */
 .container {
     border: none;
-    background-color: rgb(184, 145, 171);
+    background-color:  #e5cdeb;
     border: size style color;
-    
+    border-radius: 8px;
     width: auto;
     margin: left;
     padding: 1rem;
@@ -100,6 +104,7 @@ margin-right: 80px;
 .container2 {
     display: flex;
     border: none;
+    border-radius: 8px;
     background-color: rgb(184, 145, 171);
     border: size style color;
     
@@ -115,6 +120,7 @@ margin-right: 80px;
 .container3 {
     display: flex;
     border: none;
+    border-radius: 8px;
     background-color: rgb(184, 145, 171);
     border: size style color;
     
