@@ -1,0 +1,133 @@
+/* ---- General ---- */
+body {
+    background-color: rgb(160, 129, 158);
+}
+
+h1 {
+    font-size: 35px;
+    font-style: ariel;
+}
+a {
+    color: rgb(148, 200, 245);
+    text-decoration: underline;
+    font-size:20px solid;
+}
+a:hover {
+    color: rgb(246, 238, 238);
+    text-decoration: none;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 21px;
+}
+p {
+    font-size: 21px;
+    color: aliceblue;
+   color: rgb(0, 0, 0);
+}
+ 
+
+li{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+/* ---- Back to top ---- */
+
+
+body {
+display: grid;
+grid-template-columns: justify; 
+}
+
+.top {
+--offset: auto; 
+
+position: sticky;
+bottom: 80px;      
+margin-right: 80px; 
+place-self: end;
+margin-top: calc(100vh + var(--offset));
+
+/* visual styling */
+text-decoration: none;
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+background: #e8d9e4;
+border-radius: 10px;
+white-space: nowrap;
+}
+
+body {
+display: grid;
+grid-template-columns: auto; 
+}
+
+.container-top {
+display: flex;
+align-items: flex-end;
+width: 60px;
+}
+
+.top {
+position: sticky;
+bottom: 80px;      
+margin-right: 80px; 
+}
+
+
+/* ---- header ----- */
+.container {
+    border: none;
+    background-color:  #e5cdeb;
+    border: size style color;
+    border-radius: 8px;
+    width: auto;
+    margin: left;
+    padding: 1rem;
+    border: 5px solid rgb(233, 220, 229)
+    }
+
+.h1-h2 {
+    text-align: center;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+    /* ---- Nav_container --- */
+.container2 {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(184, 145, 171);
+    border: size style color;
+    
+    width: 400px;
+    margin: left;
+    padding: 1rem;
+    border: 5px solid rgb(233, 220, 229) 
+
+    }
+
+
+    /* ---- footer --- */
+.container3 {
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(184, 145, 171);
+    border: size style color;
+    
+    width: auto;
+    margin: left;
+    padding: 1rem;
+    border: 5px solid rgb(233, 220, 229) 
+    }
+
+
