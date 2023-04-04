@@ -100,20 +100,35 @@ margin-right: 80px;
     place-items: center;
 }
 
-    /* ---- Nav_container --- */
-.container2 {
+    /* ---- Nav-bar --- */
+.nav-menu {
+    list-style-type: none;
     display: flex;
     border: none;
-    border-radius: 8px;
-    background-color: rgb(184, 145, 171);
+    background-color:#f0cfe7;
     border: size style color;
-    
+    justify-content: space-evenly;
     width: 400px;
     margin: left;
-    padding: 1rem;
-    border: 5px solid rgb(233, 220, 229) 
+    padding: 0;
 
 }
+#sidebar {
+    padding: 1rem;
+    background-color: #f0cfe7;
+}
+#sidebar a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+#sidebar a:hover {
+    color: aqua;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 
     /* ---- footer --- */
@@ -190,3 +205,28 @@ html, body {
     transition: 6s;
 
 }
+ /* The animation code */
+ @keyframes Linkedin-logo{
+    0%   {background-color: blue;}
+    50%  {background-color: white;}
+  }
+
+  /* The element to apply the animation to */
+.icon{
+
+    width: 1px;
+    height: 1px;
+    background-color: black;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+ 
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 15px;
+
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
