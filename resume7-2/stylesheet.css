@@ -7,6 +7,11 @@ h1 {
     font-size: 35px;
     font-style: ariel;
 }
+p1{
+    font-size: 22px;
+    font-style: ariel;
+    color: aliceblue;
+}
 a {
     color: rgb(148, 200, 245);
     text-decoration: underline;
@@ -36,34 +41,29 @@ li{
 
 /* ---- Back to top ---- */
 
-
 body {
-display: grid;
-grid-template-columns: justify; 
-}
+    display: grid;
+    grid-template-columns:justify; 
+    }
 
 .top {
 --offset: auto; 
 
-position: sticky;
+position: sticky; right: 80px;
 bottom: 80px;      
 margin-right: 80px; 
 place-self: end;
 margin-top: calc(100vh + var(--offset));
 
 /* visual styling */
+
 text-decoration: none;
 padding: 10px;
 font-family: Arial, Helvetica, sans-serif;
-color: #fff;
-background: #e8d9e4;
+color: #1a0614;
+background: aliceblue;
 border-radius: 10px;
 white-space: nowrap;
-}
-
-body {
-display: grid;
-grid-template-columns: auto; 
 }
 
 .container-top {
@@ -82,17 +82,17 @@ margin-right: 80px;
 /* ---- header ----- */
 .container {
     border: none;
-    background-color:  #e5cdeb;
+    background-color:  #f0cfe7;
     border: size style color;
-    border-radius: 8px;
+    border-radius: 8px;;
     width: auto;
     margin: left;
-    padding: 1rem;
+    padding: 0;
     border: 5px solid rgb(233, 220, 229)
     }
 
 .h1-h2 {
-    text-align: center;
+        text-align: center;
 }
 
 .center {
@@ -113,7 +113,7 @@ margin-right: 80px;
     padding: 1rem;
     border: 5px solid rgb(233, 220, 229) 
 
-    }
+}
 
 
     /* ---- footer --- */
@@ -128,6 +128,65 @@ margin-right: 80px;
     margin: left;
     padding: 1rem;
     border: 5px solid rgb(233, 220, 229) 
-    }
+}
 
+     /* ---- hero or banner area --- */
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(160, 129, 158);
+}
+
+.main-image{
+    position: relative;
+    background: url(../images/my-background1.jpg) no-repeat center;
+    background-size: cover;
+    height: 1000px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.banner-container{
+    position: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: aliceblue;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 70px;
+
+}
+
+.container h1 span {
+    border: 6px solid rgb(88, 71, 71);
+    padding: 6px 6px;
+    display: inline-block;
+}
+
+.cen{
+    margin: 20px;
+    display: aliceblue;
+    font-size: 26px;
+}
+
+.button{
+    color: #313131;
+    padding: 10px 24px;
+    background: #f1f1f1;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 6s;
+
+}

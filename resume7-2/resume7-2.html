@@ -18,29 +18,41 @@
     </head>
 
     <body>
-        <picture>
-            <source srcset="../images/my-pic-small.jpg">
-            <source srcset="../images/my-pic-big.jpg">
-            <img src="../images/my-pic-large.jpg" alt="my-pic">
-        </picture>
 
-        <header>
+        <header class="hero-image">
+            
             <div class="container">
+                <div class="main-image">
+                    <div class="banner-container">
+                        <h1><span>This is my banner</span></h1>
+                        <span class="cen">To see my resume</span>
+                        <a class="button" href="#">Click here</a>  
+                    </div>
+                    
+                    <div class="center">
+                        
+                        <picture>
+                            <source srcset="../images/my-pic-small.jpg" media="(max-width: 650px)">
+                            <source srcset="../images/my-pic-big.jpg" media="(max-width: 1000px)">
+                            <img src="../images/my-photo.jpg" alt="my-photo" style="float: right;border-radius: 150%; width:350px;height:500px;">
+                        </picture>
 
-                <div class="center" >
-                    <img src="../images/my-photo.jpg" alt="my-photo" style="float: right;border-radius: 150%; width:350px;height:500px;">
-                </div>
-                <div class="h1-h2">
-                    <h1>Dingaan David Nkosi</h1>
-                    <h2>Profile Summary</h2>
-                </div>
-                <p>I am a highly organized and analytical person. I am able to adapt and be flexible when required. A problem solver seeking to improve any process or end user experience. My time management skills allow me to complete projects efficiently and meet deadlines. I communicate well within a team and external stakeholders. I work towards driving and achieving the organizations objectives with excellence and promoting the values of the organization. I have a passion for technology, and I am keen to grow my career within this sector. </p>
+                        <div class="h1-h2">
+                            <h1>Dingaan David Nkosi</h1>
+                            <h2>Profile Summary</h2>
+                        </div>
+                        <p1>I am a highly organized and analytical person. I am able to adapt and be flexible when required. A problem solver seeking to improve any process or end user experience. My time management skills allow me to complete projects efficiently and meet deadlines. I communicate well within a team and external stakeholders. I work towards driving and achieving the organizations objectives with excellence and promoting the values of the organization. I have a passion for technology, and I am keen to grow my career within this sector. </p1>
+                    
+                       
+                    </div>
 
+                </div>
             </div>
             
         </header>
     
         
+
         <aside>
             <nav>
                 <div class="container2">
@@ -161,7 +173,7 @@
 
             <footer id="contacts">
                 
-                <h2>Contacts</h2>
+                <h2>Contacts:</h2>
         
                 <a href="https://www.linkedin.com/in/dingaan-nkosi96/"  target="_blank">
                     <h2>Linkedin</h2>   
