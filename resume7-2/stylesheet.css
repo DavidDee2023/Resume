@@ -1,6 +1,6 @@
 /* ---- General ---- */
 body {
-    background-color: rgb(160, 129, 158);
+    background-color:blueviolet;
 }
 
 h1 {
@@ -91,45 +91,41 @@ margin-right: 80px;
     border: 5px solid rgb(233, 220, 229)
     }
 
-.h1-h2 {
-        text-align: center;
-}
-
 .center {
     display: grid;
     place-items: center;
 }
 
     /* ---- Nav-bar --- */
-.nav-menu {
+    .nav-menu ul {
     list-style-type: none;
-    display: flex;
-    border: none;
-    background-color:#f0cfe7;
-    border: size style color;
-    justify-content: space-evenly;
-    width: 400px;
-    margin: left;
+    margin: 0;
     padding: 0;
-
-}
-#sidebar {
-    padding: 1rem;
-    background-color: #f0cfe7;
-}
-#sidebar a {
+    overflow: hidden;
+    background-color: #333;
+    }
+    .nav-menu li {
+    float: left;
+    }
+    .nav-menu a {
+    display: block;
     color: white;
-    text-decoration: none;
-    width: 100%;
-}
-
-#sidebar a:hover {
-    color: aqua;
-    text-decoration: none;
     text-align: center;
-}
-
-
+    padding: 14px 16px;
+    }
+    .nav-menu a:hover {background-color: #1a0614;
+    }
+    .nav-menu {
+        list-style-type: none;
+        display: flex;
+        border: none;
+        background-color:#f0cfe7;
+        border: size style color;
+        justify-content: space-evenly;
+        width: 400px;
+        margin: left;
+        padding: 0;
+    }
 
     /* ---- footer --- */
 .container3 {
@@ -180,7 +176,7 @@ html, body {
 
 .container h1 {
     margin: 0;
-    font-size: 70px;
+    font-size: 40px;
 
 }
 

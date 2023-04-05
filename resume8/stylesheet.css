@@ -13,12 +13,12 @@ p1{
     color: aliceblue;
 }
 a {
-    color: rgb(148, 200, 245);
+    color: white;
     text-decoration: underline;
     font-size:20px solid;
 }
 a:hover {
-    color: rgb(246, 238, 238);
+    color: blue;
     text-decoration: none;
 }
 h2 {
@@ -102,7 +102,7 @@ margin-right: 80px;
 
     /* ---- Nav_container --- */
 .container2 {
-    display: flex;
+    display: inline;
     border: none;
     border-radius: 8px;
     background-color: rgb(184, 145, 171);
@@ -117,18 +117,23 @@ margin-right: 80px;
 
 
     /* ---- footer --- */
+
 .container3 {
-    display: flex;
-    border: none;
+
+    left: 0;
+    bottom: 0;
+    display: inline-flex;
+    text-align: center;
     border-radius: 8px;
     background-color: rgb(184, 145, 171);
-    border: size style color;
+    border: style color;
     
-    width: auto;
+    width: 100%;
     margin: left;
     padding: 1rem;
     border: 5px solid rgb(233, 220, 229) 
 }
+
 
      /* ---- hero or banner area --- */
 
@@ -144,24 +149,11 @@ html, body {
     position: relative;
     background: url(../images/my-background1.jpg) no-repeat center;
     background-size: cover;
-    height: 1000px;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+    background-position: center;
+
     
 }
 
-.banner-container{
-    position: left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
-    text-align: center;
-    color: aliceblue;
-    font-weight: 100;
-    text-transform: uppercase;
-
-}
 
 .container h1 {
     margin: 0;
@@ -190,3 +182,4 @@ html, body {
     transition: 6s;
 
 }
+
