@@ -1,4 +1,4 @@
-/* ---- General ---- */
+/* ---- General items ---- */
 body {
     background-color: rgb(160, 129, 158);
 }
@@ -81,7 +81,7 @@ margin-right: 80px;
 }
 
 
-/* ---- header ----- */
+/* ---- header-grid ----- */
 .container {
     border: none;
     background-color:  #f0cfe7;
@@ -102,9 +102,10 @@ margin-right: 80px;
     place-items: center;
 }
 
-    /* ---- Nav_container --- */
+    /* ---- side bar or Nav_container-grid --- */
 .container2 {
     display: inline;
+
     border: none;
     border-radius: 8px;
     background-color: rgb(184, 145, 171);
@@ -154,7 +155,7 @@ margin-right: 80px;
     background-color: rgb(184, 145, 171);
 }
 
-/* ---- footer --- */
+/* ---- footer grid --- */
 
 .container3 {
 
