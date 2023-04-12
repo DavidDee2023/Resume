@@ -1,4 +1,4 @@
-/* ---- General items ---- */
+/* ---- General html items ---- */
 body {
     background-color: rgb(160, 129, 158);
 }
@@ -205,13 +205,13 @@ input[type=text], select, textarea{
     resize: vertical;
   }
   
-  /* Style the label to display next to the inputs */
+  /* Style of the label to display next to the inputs */
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
   
-  /* Style the submit button */
+  /* Style of the submit button */
   input[type=submit] {
     background-color: #ebbdea;
     color: rgb(0, 0, 0);
@@ -222,7 +222,7 @@ input[type=text], select, textarea{
     float: right;
   }
   
-  /* Style the container */
+  /* Style of the container */
   .container4 {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -244,6 +244,7 @@ input[type=text], select, textarea{
   }
   
   /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
@@ -271,6 +272,7 @@ input[type=text], select, textarea{
   /* Mobile Phone Responsive layout of the resume - when the screen is less than 480px wide */
 
 @media screen and (max-width: 480px) {
+
     h1 {
         font-size: 1.80em;
     }
@@ -291,6 +293,13 @@ input[type=text], select, textarea{
     li{
         color: aliceblue;
         font-size: 1.20em;
+    }
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
     }
 }
 
